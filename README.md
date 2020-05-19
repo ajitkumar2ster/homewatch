@@ -1,5 +1,5 @@
 # homewatch
-A home security and automation system
+A home security and automation system written in Python
 
 Prerequisites:
 ### You need a Raspberry Pi 3+
