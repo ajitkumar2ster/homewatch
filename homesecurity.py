@@ -17,8 +17,10 @@ telepot.api._onetime_pool_spec = (SOCKSProxyManager, dict(proxy_url=proxy_url, n
 cf = configparser.ConfigParser()
 cf.read('homewatch.conf')
 
-bot = telepot.Bot('1220821606:AAGa_uLYxAZuebphG2MxTXHnlpjdSYOM7EQ')
-homemembers = [537452059, 1224139768]
+# go to Telegram and look for BotFather, ask him for a bot, he will give you one with a token, use that below.
+bot = telepot.Bot('XXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+# include the telegram ids of the people who will receive alerts to this list
+homemembers = [999999999, 999999999]
 
 try:
     need_clean = False
