@@ -1,7 +1,7 @@
 # homewatch
 A home security and automation system written in Python
 
-##Prerequisites:
+## Prerequisites:
 #### You need a Raspberry Pi 3+
 #### You need to know the wires for your sensors. Use a multimeter continuity test to check if they work.
 #### You need a GPIO breadboard and jumper wires.
