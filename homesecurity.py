@@ -33,7 +33,7 @@ try:
             bot.sendMessage(chat_id, str_print)
 
 
-    #Initializing GPIO
+    #Initializing GPIO Pins
     print('Setting up hardware...')
     PIN_foyerwindow = int(cf.get('PIN', 'foyerwindow'))
     PIN_livingwindow = int(cf.get('PIN', 'livingwindow'))
@@ -59,8 +59,7 @@ try:
 
     need_clean = True
 
-    #Running actual program
-    print('Ready!')
+    print('Security System is Ready!')
     #Run infinitely
     while True:
         #Check for next state
