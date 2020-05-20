@@ -10,7 +10,8 @@ import urllib3
 import telepot.api
 from urllib3.contrib.socks import SOCKSProxyManager
 
-proxy_url = 'socks5://192.168.1.64:9050'
+# masking my IP, you need to get your own proxy.
+proxy_url = 'socks5://999.999.1.64:9050'
 telepot.api._pools = {'default': SOCKSProxyManager(proxy_url=proxy_url, num_pools=3, maxsize=10, retries=False, timeout=30),}
 telepot.api._onetime_pool_spec = (SOCKSProxyManager, dict(proxy_url=proxy_url, num_pools=1, maxsize=1, retries=False, timeout=30))
 
